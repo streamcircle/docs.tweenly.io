@@ -17,7 +17,6 @@ export default defineConfig({
                 {
                     label: "Getting Started",
                     items: [
-                        { label: "Introduction", link: "/getting-started/introduction/" },
                         { label: "Installation", link: "/getting-started/installation/" },
                         { label: "Manage License", link: "/getting-started/manage-license/" },
                         { label: "Wizard Tutorial", link: "/getting-started/wizard-tutorial/" },
