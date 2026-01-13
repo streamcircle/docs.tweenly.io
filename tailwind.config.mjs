@@ -13,7 +13,8 @@ export default {
         gray: colors.neutral,
       },
       fontFamily: {
-        sans: ['"Roboto"'],
+        sans: ["Inter", "system-ui", "sans-serif"],
+        heading: ["Manrope", "system-ui", "sans-serif"],
       },
     },
   },
