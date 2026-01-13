@@ -7,7 +7,13 @@ export default defineConfig({
     site: "https://docs.tween.ly",
     integrations: [
         starlight({
-            title: "TWEENLY DOCS",
+            title: "Tweenly",
+            logo: {
+                light: "./src/assets/logo_tweenly_light.svg",
+                dark: "./src/assets/logo_tweenly_dark.svg",
+                alt: "Tweenly",
+                replacesTitle: true,
+            },
             social: {
                 facebook: "https://www.facebook.com/app.tween.ly/",
                 linkedin: "https://www.linkedin.com/company/tween-ly/",
