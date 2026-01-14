@@ -18,19 +18,33 @@ https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
 @layer base {
   :root {
     --sl-font: 'Inter', system-ui, sans-serif;
-    /* --sl-font-weight-heading: 400; */
 
-    h1, h2, h3, h4, h5, h6 { font-weight: 400; }
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 400;
+    }
   }
 
-  /* Body text */
   .sl-markdown-content {
     font-family: 'Inter', system-ui, sans-serif;
   }
 
-  /* Nadpisy */
   .sl-markdown-content :is(h1,h2,h3,h4,h5,h6) {
     font-family: 'Manrope', system-ui, sans-serif;
-    /* font-weight: 200; */
   }
+}
+
+/* Light mode */
+:root[data-theme='light'],
+html[data-theme='light'] {
+  --sl-color-accent: #0B95BB;      /* primary (links, icons) */
+  --sl-color-accent-low: #e6f6fb;  /* subtle bg (badges/hover backgrounds) */
+  --sl-color-accent-high: #007A98; /* primary dark (hover/active) */
+}
+
+/* Dark mode */
+:root[data-theme='dark'],
+html[data-theme='dark'] {
+  --sl-color-accent: #0B95BB;      /* primary (links, icons) */
+  --sl-color-accent-low: #062a33;  /* subtle bg in dark UI */
+  --sl-color-accent-high: #0EB0DC; /* primary light */
 }
