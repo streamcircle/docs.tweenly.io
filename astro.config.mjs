@@ -7,7 +7,13 @@ export default defineConfig({
     site: "https://docs.tween.ly",
     integrations: [
         starlight({
-            title: "TWEENLY DOCS",
+            title: "Tweenly",
+            logo: {
+                light: "./src/assets/logo_tweenly_light.svg",
+                dark: "./src/assets/logo_tweenly_dark.svg",
+                alt: "Tweenly",
+                replacesTitle: true,
+            },
             social: {
                 facebook: "https://www.facebook.com/app.tween.ly/",
                 linkedin: "https://www.linkedin.com/company/tween-ly/",
@@ -17,7 +23,6 @@ export default defineConfig({
                 {
                     label: "Getting Started",
                     items: [
-                        { label: "Introduction", link: "/getting-started/introduction/" },
                         { label: "Installation", link: "/getting-started/installation/" },
                         { label: "Manage License", link: "/getting-started/manage-license/" },
                         { label: "Wizard Tutorial", link: "/getting-started/wizard-tutorial/" },
@@ -87,7 +92,8 @@ export default defineConfig({
                     link: "/support-and-contact/",
                 },
             ],
-            customCss: ["@fontsource/roboto", "./src/tailwind.css"],
+            // customCss: ["@fontsource/roboto", "./src/tailwind.css"],
+            customCss: ["@fontsource/inter", "./src/tailwind.css"],
         }),
         tailwind({ applyBaseStyles: false }),
     ],
