@@ -21,18 +21,18 @@ Tweenly is optimized for **Google Chrome**. Avoid using another web browsers.
 Follow these steps to start using Tweenly:
 
 1. **Create an Account**
-   - Go to the <a href="https://editor.tween.ly/signup" target="_blank" rel="noopener noreferrer">signup page</a>.
+   - Go to the <a href="https://editor.tweenly.io/signup" target="_blank" rel="noopener noreferrer">signup page</a>.
    - Enter your details and confirm with **Sign up**.
    - Verify your email.
 
 2. **Log In**
-   - Go to the <a href="https://editor.tween.ly/login" target="_blank" rel="noopener noreferrer">login page</a>
+   - Go to the <a href="https://editor.tweenly.io/login" target="_blank" rel="noopener noreferrer">login page</a>
    - Enter your credentials and confirm with **Log in**.
 
 3. **Choose Your License**
    - A Free license is activated automatically.
    - You can begin using Tweenly immediately or upgrade your license at any time via the **Profile > License & Billing** section.
-   - You can find all plans with pricing <a href="https://tween.ly/#pricing" target="_blank" rel="noopener noreferrer">here</a>.
+   - You can find all plans with pricing <a href="https://tweenly.io/#pricing" target="_blank" rel="noopener noreferrer">here</a>.
 
 4. **Set Up Your Workspace**
    - Each user gets a default **Personal** workspace.
@@ -47,14 +47,13 @@ Follow these steps to start using Tweenly:
 
 For the best performance, adjust these **Chrome settings**:
 
-- **Enable Hardware Acceleration**: 
+- **Enable Hardware Acceleration**:
    - Go to **Settings > System** and toggle on **Use hardware acceleration when available** for smoother performance when working with complex animations.
-- **Clear Cache Regularly**: 
+- **Clear Cache Regularly**:
    - Prevent conflicts with Tweenly updates by clearing cache under **Settings > Privacy and Security > Clear browsing data**.
-- **Pop-up Blockers**: 
+- **Pop-up Blockers**:
    - Allow Tweenly pop-ups to ensure smooth exporting and publishing. -->
 
 ### Updating Tweenly
 
 Tweenly is always up to date. Since it’s web-based, you’ll automatically use the latest version with every login—no manual updates required.
-
