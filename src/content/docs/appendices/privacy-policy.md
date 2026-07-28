@@ -7,8 +7,7 @@ _Last Updated: 16.10.2023_
 
 Your privacy is important to us. This Privacy Policy outlines how we collect, use,
 disclose, and protect your personal information when you use our cloud application
-Tweenly ("Application") operated by Stream Circle, a.s. ("Company," "we," "us," or
-"our"). By using the Application, you consent to the practices described in this Privacy
+operated by PROVYS Technologies, a.s. ("Company," "we," "us," or "our"). By using the
 Policy.
 
 ## 1. Information We Collect

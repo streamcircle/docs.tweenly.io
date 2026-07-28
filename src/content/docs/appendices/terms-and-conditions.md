@@ -6,7 +6,7 @@ description: Tweenly terms and conditions for using the application and services
 _Last Updated: 16.10.2023_
 
 Please read these Terms and Conditions ("Terms") carefully before using our cloud
-application Tweenly ("Application") operated by Stream Circle, a.s. ("Company," "we,"
+application Tweenly ("Application") operated by PROVYS Technologies, a.s. ("Company," "we,"
 "us," or "our"). By accessing or using the Application, you agree to comply with and be
 bound by these Terms. If you do not agree to these Terms, please do not use the
 Application.
